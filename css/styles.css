@@ -3,15 +3,17 @@
   --color-secondary: #434455;
   --color-third: #fff;
   --color-action: #4d5ae5;
-  --color-background: #fff;
   --color-background-section: #2e2f42;
   --color-background-brand: #f4f4fd;
+  --color-button-action: #404bbf;
 }
 
 body {
   color: var(--color-primary);
-  background-color: var(--color-background);
+  background-color: var(--color-third);
 }
+
+/* Header */
 
 /* logo */
 
@@ -51,9 +53,28 @@ body {
   color: var(--color-action);
 }
 
-/* main */
+/* Main */
+
 /* section-hero */
 
 .section-hero {
   background-color: var(--color-primary);
+  color: var(--color-third);
+}
+
+/* Button-section-hero */
+
+.button-section-hero {
+  color: var(--color-third);
+  background-color: var(--color-action);
+}
+
+.button-section-hero:hover {
+  color: var(--color-third);
+  background-color: var(--color-action);
+}
+
+.button-section-hero:focus {
+  color: var(--color-third);
+  background-color: var(--color-button-action);
 }
