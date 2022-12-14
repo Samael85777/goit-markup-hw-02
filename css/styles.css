@@ -11,8 +11,6 @@
 
 body {
   font-family: Roboto, sans-serif;
-  width: 1440px;
-  height: 2593px;
   color: var(--color-primary);
   background-color: var(--color-third);
 }
@@ -28,8 +26,6 @@ ul {
 /* Header */
 
 .header {
-  /* left: 0px;
-  top: 0px; */
   background-color: var(--color-third);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -54,8 +50,6 @@ ul {
 /* navigation */
 
 .navigation-list {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
@@ -95,18 +89,11 @@ ul {
 
 .section-hero {
   background-color: var(--color-primary);
-  width: 1440px;
-  height: 603px;
-  left: 0px;
-  top: 72px;
 }
 .section-hero-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 600;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   color: var(--color-third);
   letter-spacing: 0.02em;
 }
@@ -114,8 +101,6 @@ ul {
 /* Button */
 
 .button-section-hero {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.18;
@@ -143,17 +128,19 @@ ul {
 /* section advantages */
 
 .advantages-title {
-  visibility: hidden;
-}
-
-.advantages-list-item {
-  width: 264px;
-  height: 104px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .advantages-list-item-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
@@ -170,12 +157,9 @@ ul {
 
 .work-title {
   color: var(--color-primary);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 600;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   text-transform: capitalize;
 }
 
@@ -186,56 +170,42 @@ ul {
 }
 
 .team-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 600;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-primary);
 }
 
 .team-list-card {
-  width: 264px;
-  height: 380px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
 
 .team-list-card-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-primary);
 }
 
 .team-list-card-text {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
   letter-spacing: 0.02em;
 }
 
 /* second page (Portfolio) */
 
 .button-action {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
   color: var(--color-action);
   background-color: var(--color-background-button);
@@ -250,22 +220,25 @@ ul {
 }
 
 .gallery-title {
-  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .portfolio-images-card {
   box-sizing: border-box;
-  width: 360px;
-  height: 420px;
-  left: 156px;
-  top: 288px;
   border: 0.5px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-images-card-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
@@ -284,10 +257,6 @@ ul {
 
 .footer {
   background-color: var(--color-background-section);
-  width: 1440px;
-  height: 310px;
-  left: 0px;
-  top: 2283px;
 }
 
 .footer-logo {
@@ -298,7 +267,7 @@ ul {
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: var(--color-background-brand);
 }
 
 .web-footer-logo {
@@ -312,12 +281,8 @@ ul {
 }
 
 .footer-text {
-  width: 264px;
-  height: 72px;
-  left: 156px;
-  top: 2421px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #e7e9fc;
+  color: var(--color-background-button);
 }
