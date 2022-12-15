@@ -15,10 +15,6 @@ body {
   background-color: var(--color-third);
 }
 
-a {
-  text-decoration: none;
-}
-
 ul {
   list-style: none;
 }
@@ -27,16 +23,16 @@ ul {
 
 .header {
   background-color: var(--color-third);
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  /* border-bottom: solid; */
+  box-shadow: 0px 0px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 0px 0px rgba(46, 47, 66, 0.08);
 }
 
 /* logo */
 
 .link-logo {
   font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.33;
   color: var(--color-primary);
@@ -50,7 +46,7 @@ ul {
 /* navigation */
 
 .navigation-list {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -58,12 +54,12 @@ ul {
 
 .link-navigation {
   color: var(--color-primary);
+  text-decoration: none;
 }
 
 .link-navigation:hover,
 .link-navigation:focus {
   color: var(--color-action);
-  text-decoration: underline;
 }
 
 /* contacts */
@@ -76,6 +72,7 @@ ul {
 
 .link-contacts {
   color: var(--color-secondary);
+  text-decoration: none;
 }
 
 .link-contacts:hover,
@@ -91,7 +88,7 @@ ul {
   background-color: var(--color-primary);
 }
 .section-hero-title {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   color: var(--color-third);
@@ -101,25 +98,22 @@ ul {
 /* Button */
 
 .button-section-hero {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.04em;
+  cursor: pointer;
   width: 170px;
   height: 51px;
   left: 635px;
   top: 432px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: var(--color-third);
-  background-color: var(--color-action);
+  color: var(--color-button-action);
+  background-color: var(--color-background-button);
 }
 
-.button-section-hero:hover {
-  color: var(--color-third);
-  background-color: var(--color-action);
-}
-
+.button-section-hero:hover,
 .button-section-hero:focus {
   color: var(--color-third);
   background-color: var(--color-button-action);
@@ -128,7 +122,6 @@ ul {
 /* section advantages */
 
 .advantages-title {
-  position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -141,7 +134,7 @@ ul {
 }
 
 .advantages-list-item-title {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
   color: var(--color-primary);
@@ -157,7 +150,7 @@ ul {
 
 .work-title {
   color: var(--color-primary);
-  font-weight: 600;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
@@ -170,7 +163,7 @@ ul {
 }
 
 .team-title {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -185,7 +178,7 @@ ul {
 }
 
 .team-list-card-title {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -193,7 +186,6 @@ ul {
 }
 
 .team-list-card-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -202,10 +194,11 @@ ul {
 /* second page (Portfolio) */
 
 .button-action {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
   align-items: center;
+  cursor: pointer;
   letter-spacing: 0.04em;
   color: var(--color-action);
   background-color: var(--color-background-button);
@@ -220,7 +213,6 @@ ul {
 }
 
 .gallery-title {
-  position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -239,7 +231,7 @@ ul {
 }
 
 .portfolio-images-card-title {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -261,8 +253,7 @@ ul {
 
 .footer-logo {
   font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.16;
   letter-spacing: 0.03em;
@@ -272,8 +263,7 @@ ul {
 
 .web-footer-logo {
   font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.16;
   letter-spacing: 0.03em;
