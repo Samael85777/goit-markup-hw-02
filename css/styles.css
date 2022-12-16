@@ -37,6 +37,7 @@ ul {
   line-height: 1.33;
   color: var(--color-primary);
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .web-header-logo {
@@ -109,8 +110,8 @@ ul {
   top: 432px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: var(--color-button-action);
-  background-color: var(--color-background-button);
+  color: var(--color-third);
+  background-color: var(--color-action);
 }
 
 .button-section-hero:hover,
@@ -258,6 +259,7 @@ ul {
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
   color: var(--color-background-brand);
 }
 
